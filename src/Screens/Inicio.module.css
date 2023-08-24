@@ -1,0 +1,18 @@
+.inicio{
+    display: flex;
+    flex-direction: column;    
+    background: linear-gradient(180deg,  #029db5c6, #76d0ddc6);
+    padding: 20px 20px 200px;
+    align-items: center;
+
+}   
+
+.titleContainer{
+    padding-top: 50px;
+
+}
+
+.inicio p {
+    font-size: 2em;
+
+}
