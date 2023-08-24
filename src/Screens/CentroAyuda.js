@@ -18,7 +18,7 @@ const CentroAyuda = () => {
     <div name="CentroAyuda" className={styles.centroAyuda}>
       <Accordion open={open} toggle={toggle}>
         <AccordionItem >
-          <AccordionHeader targetId="1">¿Cómo funciona el Check-in automático?</AccordionHeader>
+          <AccordionHeader targetId="1"><b>¿Cómo funciona el Check-in automático?</b></AccordionHeader>
           <AccordionBody className={styles.accordionBody} accordionId="1">
             <p>Una vez que hayas realizado la compra de tu pasaje en vuelo nacional, te enviaremos
               inmediatamente tu tarjeta de embarque dinámica. Cuando queden 48 horas antes de tu vuelo, ya
@@ -31,7 +31,7 @@ const CentroAyuda = () => {
           </AccordionBody>
         </AccordionItem>
         <AccordionItem>
-          <AccordionHeader targetId="2">¿Puedo cambiar un vuelo o la fecha de mi pasaje?</AccordionHeader>
+          <AccordionHeader targetId="2"><b>¿Puedo cambiar un vuelo o la fecha de mi pasaje?</b></AccordionHeader>
           <AccordionBody className={styles.accordionBody} accordionId="2">
             <p>Puedes llamar para verificar si tu pasaje te permite cambiar la fecha o destino de tu viaje sin multas ni diferencias tarifarias.
               Si el vuelo es cancelado o reprogramado debido a la pandemia COVID-19, o por otras razones de seguridad o de fuerza mayor, podrás reprogramar tu viaje, solicitar el reembolso del valor del pasaje o contratar otros servicios de nuestra aerolínea. Conoce más en nuestra sección de política de cambios.
@@ -39,7 +39,7 @@ const CentroAyuda = () => {
           </AccordionBody>
         </AccordionItem>
         <AccordionItem>
-          <AccordionHeader targetId="3">¿Qué pasa si mi vuelo se canceló?</AccordionHeader>
+          <AccordionHeader targetId="3"><b>¿Qué pasa si mi vuelo se canceló?</b></AccordionHeader>
           <AccordionBody className={styles.accordionBody} accordionId="3">
             <p>No te preocupes, llama y podrás aceptar el nuevo itinerario que te proponemos o:<br></br>
               - Elegir una nueva fecha<br></br>
@@ -47,14 +47,14 @@ const CentroAyuda = () => {
           </AccordionBody>
         </AccordionItem>
         <AccordionItem>
-          <AccordionHeader targetId="4">Si quieres elegir una nueva fecha</AccordionHeader>
+          <AccordionHeader targetId="4"><b>Si quieres elegir una nueva fecha</b></AccordionHeader>
           <AccordionBody className={styles.accordionBody} accordionId="4">
             <p>-Podrás hacer un cambio sin costo en la misma cabina del viaje original.<br></br>
               -Podrás reprogramar el nuevo vuelo durante la vigencia de tu pasaje*.</p>
           </AccordionBody>
         </AccordionItem>
         <AccordionItem>
-          <AccordionHeader targetId="5">*Vigencia del pasaje:</AccordionHeader>
+          <AccordionHeader targetId="5"><b>*Vigencia del pasaje:</b></AccordionHeader>
           <AccordionBody className={styles.accordionBody} accordionId="5">
             <p>-Si tu viaje original comenzaba entre el 1 de marzo y el 31 de diciembre 2020, la vigencia es hasta el 31 de diciembre de 2021.<br></br>
               -Si tu viaje original comienza en 2021, la vigencia es de 12 meses a partir de la fecha del primer vuelo de tu pasaje.<br></br>
@@ -62,7 +62,7 @@ const CentroAyuda = () => {
           </AccordionBody>
         </AccordionItem>
         <AccordionItem>
-          <AccordionHeader targetId="6">Si prefieres no viajar y pedir la devolución</AccordionHeader>
+          <AccordionHeader targetId="6"><b>Si prefieres no viajar y pedir la devolución</b></AccordionHeader>
           <AccordionBody className={styles.accordionBody} accordionId="6">
             <p>Recibirás un Travel Voucher que podrás canjear por servicios de la aerolínea o dinero. Si usaste tus millas para canjear tu pasaje, éstas serán devueltas en tu cuenta de socio.</p>
           </AccordionBody>
