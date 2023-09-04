@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from "./Contacto.module.css"
+import {GoMail} from "react-icons/go"
+import {BsTelephoneInbound} from "react-icons/bs"
 
 const Contacto = () => {
   return (
@@ -12,10 +14,10 @@ const Contacto = () => {
           Tenemos distintas opciones de atención
         </p>
         <p>
-         <b>Teléfono 1: <a href="tel:+56996040090">996040090</a></b> <br></br>
-         <b>Teléfono 2: <a href="tel:+56996040091">996040091</a></b> <br></br>
+         <b><BsTelephoneInbound/> <a href="tel:+56996040090">996040090</a></b> <br></br>
+         <b><BsTelephoneInbound/> <a href="tel:+56996040091">996040091</a></b> <br></br>
          <hr></hr>
-         <b>Email: <a href="mailto:contacto@aerolinea.cl">contacto@aerolinea.cl</a></b>
+         <b><GoMail/> <a href="mailto:contacto@aerolinea.cl">contacto@aerolinea.cl</a></b>
         </p>
       </div>
 
