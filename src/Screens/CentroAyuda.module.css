@@ -2,15 +2,17 @@
     display: flex;
     padding-top: 200px;
     /*align-items: center;*/
-    background: linear-gradient(180deg, #76d0ddc6, #029db5c6);
+    background: linear-gradient(180deg, #3d13e4, #1b0088);
     flex-direction: column;
     }
 
 .centroAyuda p{
     font-size: 1em;
     text-align: justify;
+    color: #f1f1f1;
+    
 }
 
 .accordionBody{
-    background: #76d0ddc6 ;
+    background: #1b0088 ;
 }

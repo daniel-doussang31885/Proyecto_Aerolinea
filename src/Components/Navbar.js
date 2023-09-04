@@ -10,41 +10,28 @@ const Navbar = () => {
     const [navBarOpen, setNavBarOpen] = useState(false);
     const scrollPosition = useScrollPosition();
     const [windowDimension, setWindowDimension] = useState({
-
         width: window.innerWidth,
-
         height: window.innerHeight,
-
     });
 
     const detectDimension = () => {
-
         setWindowDimension({
-
             width: window.innerWidth,
-
             height: window.innerHeight,
-
         })
 
     };
 
     useEffect(() => {
-
         window.addEventListener('resize', detectDimension)
-
         windowDimension.width > 800 && setNavBarOpen(false)
-
         return () => {
-
             window.removeEventListener('resize', detectDimension)
-
         }
 
     }, [windowDimension]);
 
     const link = [
-
         {
             id: 1,
             link: "Inicio",
@@ -65,8 +52,6 @@ const Navbar = () => {
             id:5,
             link:"Contacto",
         },
-
-
     ];
 
     return (

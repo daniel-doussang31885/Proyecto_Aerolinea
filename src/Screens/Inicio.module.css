@@ -1,7 +1,7 @@
 .inicio{
     display: flex;
     flex-direction: column;    
-    background: linear-gradient(180deg,  #029db5c6, #76d0ddc6);
+    background: linear-gradient(180deg,  #1b0088, #3d13e4);
     padding: 20px 20px 200px;
     align-items: center;
 
@@ -14,5 +14,6 @@
 
 .inicio p {
     font-size: 2em;
+    color: #f1f1f1;
 
 }
